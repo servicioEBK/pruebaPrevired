@@ -1,7 +1,7 @@
 # pruebaPrevired
 # Proyecto llamado prueba
 
-Controller es llamado AplicacionIndex
+Controller es llamado clase AplicacionIndex
 
 ## Características de implementacion
 

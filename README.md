@@ -1,6 +1,6 @@
-# Proyecto llamado prueba
+# Proyecto Mantenedor Empleados
 
-
+Se deja imagen del proyecto a modo de ejemplo (estructura_proyecto.png, pagina_principal.png)
 
 ## Características de implementacion
 

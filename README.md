@@ -1,17 +1,16 @@
-# pruebaPrevired
 # Proyecto llamado prueba
 
-Controller es llamado clase AplicacionIndex
+
 
 ## Características de implementacion
 
-- Se agregaron por defecto 3 personas que estan en clase DataLoader
-- base de datos con JDBCtemplate en package Repository
-- Gestion de condiciones o validaciones en package Service
-- Controlador es clase AplicacionIndex
-- JavaScript e index esta en /resource/static
-- package Model esta el bean Persona
-- WAR se llama prueba-0.0.1.war
+- Se agregaron por defecto 3 personas bdd H2 que estan en clase DataLoader
+- consultas H2 con JDBCtemplate en package Repository
+- Gestion de condiciones o validaciones esta en package Service
+- Controller es llamado clase AplicacionIndex
+- JavaScript y Pagina esta en /resource/static
+- package del modelado es clase Persona
+- WAR se llama prueba-0.0.1.war al ejecutar MVN
 
 ## Tecnologías
 
@@ -46,3 +45,4 @@ La aplicación estará disponible en:
 
 ```txt
 http://localhost:8080
+```

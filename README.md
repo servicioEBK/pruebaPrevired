@@ -11,6 +11,7 @@
 - JavaScript y Pagina esta en /resource/static
 - package del modelado es clase Persona
 - WAR se llama prueba-0.0.1.war al ejecutar MVN
+- Run springboot de la aplicacion se llama clase PruebaApplication
 
 ## Tecnologías
 
@@ -38,10 +39,7 @@ mvn clean install
 
 ## Ejecución
 
-Run springboot de la aplicacion se llama clase PruebaApplication
-```
-
-La aplicación estará disponible en:
+1. La aplicación se levanta en:
 
 http://localhost:8080
 ```

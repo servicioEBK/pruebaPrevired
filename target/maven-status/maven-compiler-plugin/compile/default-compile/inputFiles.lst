@@ -1,0 +1,10 @@
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/model/Persona.java
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/service/PersonaServiceImpl.java
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/PruebaApplication.java
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/repositorio/PersonaRepository.java
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/DataLoader.java
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/util/MiConfig.java
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/controller/AplicacionIndex.java
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/util/ErrorCond.java
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/interfaces/PersonaRepositoryI.java
+/home/vmontero/Descargas/sernaluc/prueba/src/main/java/desa/prueba/ServletInitializer.java

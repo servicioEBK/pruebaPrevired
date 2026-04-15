@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Prueba</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	margin: 40px;
+	background: #f4f4f4;
+}
+
+.contenedor {
+	width: 400px;
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+button {
+	background: #1976d2;
+	color: white;
+	border: none;
+	padding: 10px 16px;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+	<h1>Mantenedor Empleados</h1>
+	<table border="1">
+		<tr>
+			<th>
+				<button id="btnListar">Listar_GET</button>
+			</th>
+			<th>
+				<button id="btnAgregar">Agregar_POST</button>
+			</th>
+			<th>
+				<button id="btnBorrar">Borrar_DELETE</button>
+			</th>
+		</tr>
+	</table>
+	<pre id="resultado"></pre>
+
+
+
+	<div id="formularioBox" class="contenedor" hidden>
+		<h1>Guardar Persona</h1>
+		<form id="formGuardar">
+			<label>Nombre:</label> <input type="text" name="nombre" required>
+
+			<label>Apellido:</label> <input type="text" name="apellido" required>
+
+			<label>Rut:</label> <input type="text" name="rut_dni" required>
+
+			<label>Cargo:</label> <input type="text" name="cargo" required>
+
+			<label>Salario:</label> <input type="number" id="salario"
+				name="salario" required>
+
+			<button type="submit">Guardar</button>
+		</form>
+	</div>
+
+	<div id="eliminarPe" class="contenedor" hidden>
+		<h1>Eliminar Empleado</h1>
+		<input type="number" id="idPersona" placeholder="Ingrese ID">
+		<button type="button" id="btnEliminar">Eliminar</button>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>

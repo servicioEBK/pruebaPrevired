@@ -1,0 +1,10 @@
+desa/prueba/ServletInitializer.class
+desa/prueba/service/PersonaServiceImpl.class
+desa/prueba/PruebaApplication.class
+desa/prueba/DataLoader.class
+desa/prueba/repositorio/PersonaRepository.class
+desa/prueba/controller/AplicacionIndex.class
+desa/prueba/model/Persona.class
+desa/prueba/interfaces/PersonaRepositoryI.class
+desa/prueba/util/ErrorCond.class
+desa/prueba/util/MiConfig.class

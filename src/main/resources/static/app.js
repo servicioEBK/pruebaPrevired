@@ -35,6 +35,13 @@ document.getElementById("formGuardar").addEventListener("submit", function(e) {
         document.getElementById("resultado").textContent = "Debe ser salario mayor a $400.000";
         return;
     } 
+    
+    const rut = document.getElementById("rut_dni");
+    const regex = /^[0-9]+-[0-9kK]{1}$/;
+    if (!regex.test(rut.value)) {
+  	  document.getElementById("resultado").textContent = "Formato incorrecto rut_dni";
+  	 return;
+    }
 
     fetch("/api/getAddRegistro", {
     	  method: "POST",
@@ -82,5 +89,6 @@ document.getElementById("btnEliminar").addEventListener("click", function () {
     });
 
 });
-    
+
+ 
 

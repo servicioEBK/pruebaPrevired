@@ -43,6 +43,5 @@ Run springboot de la aplicacion se llama clase PruebaApplication
 
 La aplicación estará disponible en:
 
-```txt
 http://localhost:8080
 ```
